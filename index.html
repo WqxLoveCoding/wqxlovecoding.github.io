@@ -7,7 +7,6 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com/">
@@ -26,7 +25,7 @@
         <div class="sidebar">
             <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
                 <img class="w-100 img-fluid mb-4" src="static/picture/profile.jpg" alt="Image">
-                <h1 class="mt-2" i18n="i18n.name">Qixuan Wang</h1>
+                <h1 class="mt-2">Qixuan Wang</h1>
                 <div class="mb-4" style="height: 22px;">
                     <h4 class="typed-text-output d-inline-block text-body"></h4>
                     <div class="typed-text d-none">Computer Vision, Medical Image Analysis</div>
@@ -465,38 +464,7 @@
     <script src="static/js/rocket-loader.min.js" data-cf-settings="b4f0bcbfa466e470e0106787-|49" defer=""></script> <a
         href="https://smalltool.github.io/" style="display:none;"></a>
     
-    <script src="static/js/jquery-3.4.1.min.js"></script>
-    <script src="static/js/jquery.i18n.js"></script>
-    <script>
-      $(document).ready(function () {
-        /*默认语言*/
-        var defaultLang = "en";
-        $("[i18n]").i18n({
-          defaultLang: defaultLang,
-          filePath: "static/i18n/",
-          filePrefix: "i18n_",
-          fileSuffix: "",
-          forever: true,
-          callback: function () {
-            console.log("i18n is ready.");
-          },
-        });
-        /*切换为中文 - 按钮*/
-        $(".chinese").click(function () {
-          $("[i18n]").i18n({
-            defaultLang: "cn",
-            filePath: "static/i18n/",
-          });
-        });
-        /*切换为英文 - 按钮*/
-        $(".english").click(function () {
-          $("[i18n]").i18n({
-            defaultLang: "en",
-            filePath: "static/i18n/",
-          });
-        });
-      });
-    </script>
+    
     
 </body>
 
