@@ -55,15 +55,11 @@
         </div>
       </div>
       <div class="content">
-        <a href="index.html">
-          <button>English</button>
-        </a>
-        <a href="index_sc.html">
-          <button>Simplified Chinese</button>
-        </a>
-        <a href="index_tc.html">
-          <button>Traditional Chinese</button>
-        </a>
+        <select onchange="window.location=this.value;">
+          <option value="index.html">English</option>
+          <option value="index_sc.html">Simplified Chinese</option>
+          <option value="index_tc.html">Traditional Chinese</option>
+        </select>
         <div class="container bg-white py-5">
           <div class="row px-3">
             <div class="col-12">
